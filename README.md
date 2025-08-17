@@ -1,47 +1,46 @@
-# Numerical Methods
+# 📘 Numerical Methods (MATLAB + Python)
 
-Numerical Methods implementation via MATLAB.
+[![Made with MATLAB](https://img.shields.io/badge/MATLAB-R2023b-orange?logo=matlab)](https://www.mathworks.com/products/matlab.html)
+[![Made with Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Repo Size](https://img.shields.io/github/repo-size/AbdurRahman020/Numerical-Methods?color=blue)](../../)
+[![Stars](https://img.shields.io/github/stars/AbdurRahman020/Numerical-Methods?style=social)](../../stargazers)
 
-### Curve Fitting
-- Linear Regression Curve Fitting
-- Least Square Polynomials 
+This repository contains **MATLAB** and **Python** implementations of fundamental **numerical methods**, including curve fitting, numerical integration, interpolation, solving linear systems, differential equations, and root-finding.
 
-### Numerical Integration
-- Composite Boole method
-- Composite Simpson 1/3 method
-- Composite Simpson 3/8 method
-- Composite Trapezoidal method
-- Composite Weddle rule
-- Unequally Spaced Trapezoidal Rule Quadrature
-- Gauss-Legendre Integration/Quadrature
 
-### Interpolation
-- Lagrange method
-- Newton method
+## 📖 Implemented Methods
 
-### Linear System of Equations
-- Backward substitution
-- Forward substitution
-- Cholesky method
-- Crout method
-- Doolittle method 
-- Gauss Elimination
-- Gauss-Jorden method 
-- Gauss-Seidel iteration method
-- Jacobi method
+### 🔹 Curve Fitting
+- Linear Regression  
+- Least-Squares Polynomials  
 
-### Ordinary Differential Equations (Initial Value Problem)
-- Runge-Kutta (Order Two) method
-- Runge-Kutta (Order Three) method
-- Runge-Kutta (Order Four) method
-- Euler method
-- Midpoint method
-- Taylor (Order Two) method
-- Taylor (Order Four) method
+### 🔹 Numerical Integration
+- Composite Boole Method  
+- Composite Simpson 1/3 Method  
+- Composite Simpson 3/8 Method  
+- Composite Trapezoidal Method  
+- Composite Weddle’s Rule  
+- Unequally Spaced Trapezoidal Rule  
+- Gauss–Legendre Quadrature  
 
-### Solution of Nonlinear Equations f(x)=0
-- Fixed-Point iteration
-- Bisection method
-- False-Position method
-- Newton-Raphson iteration
-- Secant Method
+### 🔹 Interpolation
+- Lagrange Method  
+- Newton Method  
+
+### 🔹 Linear System of Equations
+- **Direct methods**: Backward/Forward Substitution, Cholesky, Crout, Doolittle, Gaussian Elimination, Gauss–Jordan  
+- **Iterative methods**: Jacobi, Gauss–Seidel  
+
+### 🔹 Ordinary Differential Equations (IVPs)
+- Euler’s Method  
+- Midpoint Method  
+- Taylor Methods (Order 2 & 4)  
+- Runge–Kutta Methods (RK2, RK3, RK4)  
+
+### 🔹 Root-Finding (f(x) = 0)
+- Bisection Method  
+- False-Position Method  
+- Fixed-Point Iteration  
+- Newton–Raphson Method  
+- Secant Method  
